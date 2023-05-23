@@ -1,0 +1,8 @@
+USE [Travel Agency DB]
+GO
+
+--part 1
+BEGIN TRAN
+WAITFOR DELAY '00:00:06'
+INSERT INTO Rooms VALUES (8, 'Room8')
+COMMIT TRAN
